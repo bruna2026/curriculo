@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="bruna almeida" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo Profissional</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .contacto {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* Secções */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.2em;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 15px;
+            background-color: #f8f9fa;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-titulo {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-subtitulo {
+            font-style: italic;
+            color: #555;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+
+        /* Tags de Competências */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #3498db;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+        }
+
+        /* Estilo para Impressão */
+        @media print {
+            body { background-color: white; padding: 0; }
+            .container { box-shadow: none; border: none; width: 100%; max-width: 100%; }
+            .skill-tag { border: 1px solid #3498db; color: black; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>bruna almeida</h1>
+            <div class="contacto">
+                Lisboa, Portugal | +351 912 345 678 | joao.silva@email.com<br>
+                LinkedIn: linkedin.com/in/joaosilva | Portfolio: joaosilva.pt
+            </div>
+        </header>
+
+        <section id="resumo">
+            <h2>Resumo Profissional</h2>
+            <p>
+                Profissional com mais de 5 anos de experiência em Desenvolvimento Web e Gestão de Projetos. 
+                Especialista em criar soluções eficientes, focadas na experiência do utilizador e na 
+                optimização de processos internos.
+            </p>
+        </section>
+
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+            
+            <div class="item">
+                <div class="item-titulo">
+                    <span>Desenvolvedor Full Stack Sénior</span>
+                    <span>2020 — Presente</span>
+                </div>
+                <div class="item-subtitulo">Tech Solution Portugal</div>
+                <ul>
+                    <li>Liderança de equipa no desenvolvimento de aplicações SaaS.</li>
+                    <li>Redução de 30% no tempo de carregamento do sistema principal.</li>
+                    <li>Mentoria de programadores juniores e revisão de código.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <div class="item-titulo">
+                    <span>Programador Web Júnior</span>
+                    <span>2018 — 2020</span>
+                </div>
+                <div class="item-subtitulo">Agência Criativa Digital</div>
+                <ul>
+                    <li>Desenvolvimento de websites responsivos utilizando HTML, CSS e JavaScript.</li>
+                    <li>Manutenção de bases de dados MySQL.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="educacao">
+            <h2>Educação</h2>
+            <div class="item">
+                <div class="item-titulo">
+                    <span>Licenciatura em Engenharia Informática</span>
+                    <span>2015 — 2018</span>
+                </div>
+                <div class="item-subtitulo">Instituto Superior Técnico, Lisboa</div>
+            </div>
+        </section>
+
+        <section id="competencias">
+            <h2>Competências Técnicas</h2>
+            <div class="skills-container">
+                <span class="skill-tag">HTML5 / CSS3</span>
+                <span class="skill-tag">JavaScript (ES6+)</span>
+                <span class="skill-tag">React.js</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">SQL & NoSQL</span>
+                <span class="skill-tag">Metodologias Ágeis (Scrum)</span>
+            </div>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong>sim</li>
+                <li><strong>Inglês:</strong> Avançado (C1 - Certificado Cambridge)</li>
+                <li><strong>Espanhol:</strong> Intermédio</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
